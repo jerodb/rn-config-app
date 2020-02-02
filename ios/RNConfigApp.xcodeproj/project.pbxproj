@@ -13,14 +13,15 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		F153563B23E63DB30001EB10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		F153563C23E63DB30001EB10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		F153563E23E63DB30001EB10 /* libPods-RNConfigApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4297696EB68DF1A1C8DE05 /* libPods-RNConfigApp.a */; };
 		F153564023E63DB30001EB10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		F153564123E63DB30001EB10 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		F588BA9A612C9C39F511F096 /* libPods-RNConfigApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4297696EB68DF1A1C8DE05 /* libPods-RNConfigApp.a */; };
 		F97080BC74E6582167EE4B4A /* libPods-RNConfigApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4297696EB68DF1A1C8DE05 /* libPods-RNConfigApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		049DBC29B50573136DE35631 /* Pods-RNConfigApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNConfigApp.release.xcconfig"; path = "Target Support Files/Pods-RNConfigApp/Pods-RNConfigApp.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* RNConfigApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNConfigApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RNConfigApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = RNConfigApp/AppDelegate.m; sourceTree = "<group>"; };
@@ -28,11 +29,7 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RNConfigApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RNConfigApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RNConfigApp/main.m; sourceTree = "<group>"; };
-		3DD7995AF4545DABDEFB60D8 /* libPods-RNConfigApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNConfigApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		421CE74D263E019D5807F929 /* libPods-RNConfigAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNConfigAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E734C05003E930E1F77A29E /* libPods-RNConfigApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNConfigApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		54E9291521596274CDE8E423 /* Pods-RNConfigApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNConfigApp.debug.xcconfig"; path = "Target Support Files/Pods-RNConfigApp/Pods-RNConfigApp.debug.xcconfig"; sourceTree = "<group>"; };
-		73DC039F45855D3FE53A55C3 /* Pods-RNConfigApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNConfigApp.release.xcconfig"; path = "Target Support Files/Pods-RNConfigApp/Pods-RNConfigApp.release.xcconfig"; sourceTree = "<group>"; };
+		4C42C97B5D4C7BC01BF097B4 /* Pods-RNConfigApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNConfigApp.debug.xcconfig"; path = "Target Support Files/Pods-RNConfigApp/Pods-RNConfigApp.debug.xcconfig"; sourceTree = "<group>"; };
 		CE4297696EB68DF1A1C8DE05 /* libPods-RNConfigApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNConfigApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -45,6 +42,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F97080BC74E6582167EE4B4A /* libPods-RNConfigApp.a in Frameworks */,
+				F588BA9A612C9C39F511F096 /* libPods-RNConfigApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +50,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F153563E23E63DB30001EB10 /* libPods-RNConfigApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,9 +76,6 @@
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				CE4297696EB68DF1A1C8DE05 /* libPods-RNConfigApp.a */,
-				4E734C05003E930E1F77A29E /* libPods-RNConfigApp-tvOS.a */,
-				3DD7995AF4545DABDEFB60D8 /* libPods-RNConfigApp-tvOSTests.a */,
-				421CE74D263E019D5807F929 /* libPods-RNConfigAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -89,8 +83,8 @@
 		640F2C0A6D236FB7D67063A8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				54E9291521596274CDE8E423 /* Pods-RNConfigApp.debug.xcconfig */,
-				73DC039F45855D3FE53A55C3 /* Pods-RNConfigApp.release.xcconfig */,
+				4C42C97B5D4C7BC01BF097B4 /* Pods-RNConfigApp.debug.xcconfig */,
+				049DBC29B50573136DE35631 /* Pods-RNConfigApp.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -152,7 +146,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F153564323E63DB30001EB10 /* Build configuration list for PBXNativeTarget "RNConfigAppStage" */;
 			buildPhases = (
-				F153563823E63DB30001EB10 /* [CP] Check Pods Manifest.lock */,
 				F153563923E63DB30001EB10 /* Start Packager */,
 				F153563A23E63DB30001EB10 /* Sources */,
 				F153563D23E63DB30001EB10 /* Frameworks */,
@@ -242,28 +235,6 @@
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
 		74D4872B25CC625D7F5E17E0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RNConfigApp-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F153563823E63DB30001EB10 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -375,7 +346,7 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54E9291521596274CDE8E423 /* Pods-RNConfigApp.debug.xcconfig */;
+			baseConfigurationReference = 4C42C97B5D4C7BC01BF097B4 /* Pods-RNConfigApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -396,7 +367,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73DC039F45855D3FE53A55C3 /* Pods-RNConfigApp.release.xcconfig */;
+			baseConfigurationReference = 049DBC29B50573136DE35631 /* Pods-RNConfigApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -460,6 +431,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -506,6 +478,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
@@ -515,13 +488,12 @@
 		};
 		F153564423E63DB30001EB10 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54E9291521596274CDE8E423 /* Pods-RNConfigApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = 4W3C777U43;
-				INFOPLIST_FILE = RNConfigApp.plist;
+				INFOPLIST_FILE = RNConfigApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -536,12 +508,11 @@
 		};
 		F153564523E63DB30001EB10 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73DC039F45855D3FE53A55C3 /* Pods-RNConfigApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4W3C777U43;
-				INFOPLIST_FILE = RNConfigApp.plist;
+				INFOPLIST_FILE = RNConfigApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
