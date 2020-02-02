@@ -1,5 +1,4 @@
-# RN Init App  
-
+# Manage environments and build types in React Native   
 
 Init new RN application.
 Create app folder.
@@ -14,7 +13,13 @@ $ mv App.js app/App.js
 $ touch app/config.js
 ``` 
 
-Open XCode.
+Open RNConfigApp/ios/RNConfigApp.xcworkspace with XCode.
+Delete tvOS target
+Duplicate Target
+In the new target General settings change the 'Display name' and 'Bundle identifier'.
+When you create a new target Xcode will make a copy of the info.plist for the new target. We don't need two different info.plist files. Select the duplicated target and go to Build Settings, in Packaging change 'Info.plist file' to point to the original info.plist file.
+Delete the info.plist file generated when duplicating the target.
+
 
 
 
